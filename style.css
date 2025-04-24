@@ -114,6 +114,10 @@
 }
 
 
+
+
+
+
 .features {
     position: relative;
     padding: 4rem 0;
@@ -135,4 +139,13 @@
     justify-content: center;
     align-items: center;
     padding: 2rem;
+}
+
+.feature-card:first-child,
+.feature-card:last-child {
+    margin-top: 0;
+}
+
+.feature-card:nth-child(2) {
+    margin-top: 200px; /* Adjust this value to control how much lower the middle card appears */
 }
